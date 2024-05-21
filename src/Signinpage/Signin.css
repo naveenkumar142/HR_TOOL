@@ -1,0 +1,94 @@
+.start_free1 {
+    width: 152px;
+    height: 30px;
+    top: 147px;
+    left: 110px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    size: 20px;
+    line-height: 30px;
+    color: #1e2a60bf;
+    margin-left: -10px;
+    margin-top: 15%;
+  }
+
+  .new_account1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #1e2a60;
+    justify-content: left;
+    text-align: start;
+    margin-left: 1px;
+  }
+
+  .btn-custom{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: auto;
+  }
+
+  .circle2 {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    /* vertical-align: middle; */
+    border-radius: 80%;
+    /* align-items: end;
+    justify-content: end; */
+    margin-bottom:-10px;
+    margin-top: -10%;
+    margin-left: -50%;
+    background: linear-gradient(264.04deg, #45a7f7 -40.26%, #296291 140.1%);
+  }
+
+
+
+/* ........................ Responsiveness ............. */
+
+
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+  }
+  
+  .btn-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle, .circle1, .circle2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .ps-md-5 {
+      padding-left: 0 !important;
+    }
+    .ms-md-5 {
+      margin-left: 0 !important;
+    }
+    .line {
+      margin-right: 0 !important;
+    }
+  }
+  
